@@ -1,0 +1,15 @@
+{
+    "version":2,
+    "builts" :[
+        {
+            "src":"./indexjs",
+            "user":"@vercel/node"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest": "/"
+        }
+    ]
+}
